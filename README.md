@@ -1,6 +1,6 @@
 # Pagr Skill
 
-[![skills.sh](https://skills.sh/b/getpagr/skills)](https://skills.sh/getpagr/skills)
+[![skills.sh](https://skills.sh/b/getpagr/skills)](https://skills.sh/getpagr/skills) [![smithery badge](https://smithery.ai/badge/getpagr/pagr)](https://smithery.ai/servers/getpagr/pagr)
 
 Install the Pagr skill in your AI coding agent:
 
