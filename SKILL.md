@@ -33,7 +33,7 @@ You can connect to Pagr's remote Model Context Protocol (MCP) server over SSE (S
 
 The remote MCP server endpoint is:
 ```text
-https://mcp.getpagr.co/mcp?PAGR_API_KEY=pagr_tW2NdRvtqZq2CIb0oJ137rfh75ystZoeoOQiSd7aMDc
+https://mcp.getpagr.co/mcp?PAGR_API_KEY={api_key}
 ```
 
 When using an MCP-compatible client (like Claude.ai Web App Custom Connectors, Cursor IDE, or others), configure the Server URL pointing to the endpoint above. This allows the client to call tools like `upload_file` and publish pages seamlessly.
@@ -218,8 +218,8 @@ MCP config:
 {
   "mcpServers": {
     "pagr": {
-      "command": "npx",
-      "args": ["-y", "@getpagr/mcp"]
+      "type": "sse",
+      "url": "https://mcp.getpagr.co/mcp?PAGR_API_KEY={api_key}"
     }
   }
 }
